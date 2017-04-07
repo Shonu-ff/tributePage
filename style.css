@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Andika|Lobster|Metal+Mania|New+Rocker');
+
+body {
+  background: #666;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/3/34/TributeSingle.png");
+  color: white
+}
+
+h1 {
+  text-align: center;
+  font-family: 'New Rocker', cursive;
+  font-size: 80px;
+  text-shadow: 2px 4px #666;
+}
+
+#img {
+  font-family: 'New Rocker', cursive;
+  font-size: 75px;
+  text-align: center;
+  padding-bottom: 30px;
+  background: rgba(255,255,255,0.5)
+}
+
+img {
+  padding-top: 55px;
+  width: 300px;
+}
+
+h2 {
+  padding-top: 15px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: #000000;
+  text-shadow: 1px 2px #fff;
+}
+
+#container {
+  background: rgba(38, 38, 38, 0.5);
+  width: 900px;
+  margin: 0 auto;
+}
+
+#list {
+  font-family: 'Andika', sans-serif;
+  background: rgba(108, 122, 137, 0.7);
+  padding: 20px 0 15px 60px;
+}
+
+#footer h4{
+  text-align: center;
+  font-size: 14px;
+  background: black;
+  font-family: 'Andika', sans-serif;
+  padding: 2px 0 4px 0;
+}
+
+#quote {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  padding: 20px;
+  background: rgba(38, 38, 38, 0.8);
+  text-shadow: 1px 1px #666;
+}
+
+/* .qMark {
+  font-size: 80px;
+} */
+a {
+  text-decoration: none;
+  color: white;
+}
+#title {
+  padding-top: 15px;
+  margin: 0;
+  text-shadow: 1px 2px #666;
+}
+#watch {
+  background: #9A12B3;
+  height: 400px;
+  text-align: center;
+  color: white;
+  width: 400px;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+#img:hover #watch {
+  width: 900px;
+  opacity: 1.0;
+}
+
+#d {
+  font-family: 'Metal Mania', cursive;
+}
